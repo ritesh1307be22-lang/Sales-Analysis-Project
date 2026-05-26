@@ -92,3 +92,17 @@ FROM superstore
 GROUP BY `Customer Name`
 ORDER BY Total_Spent DESC
 LIMIT 10;
+SELECT State, ROUND(SUM(Sales), 2) AS Total_Sales
+FROM superstore
+GROUP BY State
+ORDER BY Total_Sales DESC
+LIMIT 10;
+SELECT `Sub-Category`, ROUND(SUM(Profit), 2) AS Total_Profit
+FROM superstore
+GROUP BY `Sub-Category`
+ORDER BY Total_Profit ASC
+LIMIT 5;
+SELECT Segment, ROUND(AVG(Sales), 2) AS Avg_Order_Value
+FROM superstore
+GROUP BY Segment
+ORDER BY Avg_Order_Value DESC;
