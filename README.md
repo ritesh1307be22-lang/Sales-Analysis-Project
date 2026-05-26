@@ -28,7 +28,7 @@ across 4 years (2014-2017).
 ![Monthly Trend](monthly_trend.png)
 ![Profit by Category](profit_by_category.png)
 ![Discount vs Profit](discount_vs_profit.png)
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](screenshot(33).png)
 
 ## 💡 Business Recommendations
 - Focus marketing budget on West and East regions
